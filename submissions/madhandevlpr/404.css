@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    animation-name: movedark;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+h1{
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: transparent;
+    background:linear-gradient(to right,#1D3045 50%,#fff 50%);
+    background-size: 25px 25px;
+    background-clip: text;
+    filter: brightness(200%);
+    font-size: 25vw;
+    animation-name:move;
+    animation-duration: .000001s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{
+        background:linear-gradient(to right,#1D3045 50%,#fff 50%);
+        background-size: 25px 25px;
+        background-clip: text;
+    }
+    50%{
+        background:linear-gradient(to right,#fff 50%,#1D3045 50%);
+        background-size: 25px 25px;
+        background-clip: text;
+    }
+    100%{
+        background:linear-gradient(to right,#1D3045 50%,#fff 50%);
+        background-size: 25px 25px;
+        background-clip: text;
+    }
+}
+
+@keyframes movedark{
+    0%{
+        background:linear-gradient(to bottom right,#1D3045 50%,#000 50%);
+        background-size: 25px 25px;
+        background-clip: text;
+    }
+    50%{
+        background:linear-gradient(to bottom right,#000 50%,#1D3045 50%);
+        background-size: 25px 25px;
+        background-clip: text;
+    }
+    100%{
+        background:linear-gradient(to bottom right,#1D3045 50%,#000 50%);
+        background-size: 25px 25px;
+        background-clip: text;
+    }
+}
+p{
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:1.5rem;
+    color: #fff;
+}
+a{
+    position: absolute;
+    top:85%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:1.5rem;
+    color: #1D3045;
+    background:#fff;
+    padding:10px;
+    text-decoration: none;
+}
