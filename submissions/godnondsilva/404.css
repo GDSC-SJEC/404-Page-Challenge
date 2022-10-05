@@ -3,43 +3,43 @@
 
 /* CSS */
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #222;
-    color: #fff;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #222;
+  color: #fff;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .title {
-    font-size: 2rem;
-    margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .description {
-    font-size: 1rem;
-    margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 .button {
-    padding: 10px 150px;
-    background: #415ddb;
-    border-radius: 10px;
-    transition: box-shadow 200ms ease-in-out
+  padding: 10px 150px;
+  background: #415ddb;
+  border-radius: 10px;
+  transition: box-shadow 200ms ease-in-out;
 }
 
 .button:hover {
-    box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.4);
 }
 
-.button>a {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #fff;
+.button > a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
 }
