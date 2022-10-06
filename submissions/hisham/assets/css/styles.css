@@ -1,0 +1,29 @@
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background: linear-gradient(black 0%, #2056bd 0%, rgb(25,121,199) 100%, white 100%);
+}
+
+.heading-1 {
+  font-weight: 500;
+  font-family: 'Bangers';
+  font-size: 90px;
+  color: white;
+}
+
+#heading-2 {
+  color: white;
+  font-family: 'Bangers';
+  margin-bottom: 20px;
+}
+
+#button-1 {
+  color: white;
+  border-color: white;
+  background-color: rgba(255,255,255,0);
+  border-width: 3px;
+  margin: auto;
+  font-weight: 500;
+}
+
