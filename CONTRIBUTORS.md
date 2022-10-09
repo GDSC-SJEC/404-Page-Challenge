@@ -16,4 +16,4 @@
 
 - [Pragnya Nagure](https://github.com/xxpsynagure)
 
-- [Binuka Dasunpriya (BinukaDs)](https://github.com/BinukaDs)
+- [BinukaDs](https://github.com/BinukaDs)
