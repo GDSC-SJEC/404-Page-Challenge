@@ -16,6 +16,12 @@ img{
   margin-top: 2%;
   width: 50%;
 }
+.displayText{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
 button{
     display: block;
     margin-top: 2%;
