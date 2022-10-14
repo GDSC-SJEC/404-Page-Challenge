@@ -37,6 +37,6 @@ button{
 }
 button:hover{
     font-weight: 600;
-    border:3px solid #000000;
+    border:4px solid #000000;
     opacity:1;
 }
