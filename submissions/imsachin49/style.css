@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:97vh;
+    background:url(https://media.tenor.com/KN5Bwfs7n-AAAAAd/mybc-cat-hug.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+.ch{
+    display:flex;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content:center;
+    align-items:center;
+    padding-top:140px;
+    color:red;
+}
+#home{
+    height:40px;
+    border-radius:50px;
+    background-color:rgb(64, 64, 176);
+    font-weight: bolder;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;        
+    color:black;
+    background-color:cornflowerblue;
+    border:1px solid white;
+}
+#home:hover{
+    border:2.5px solid aquamarine;
+    box-shadow: aquamarine 0px 22px 70px 5px;
+    color:red;
+}
+#home a{
+    text-decoration: none;
+}
+.ch h1{
+    font-size:60px;
+}
+.ch h3{
+    margin-top:-40px;
+    color:black;
+}
