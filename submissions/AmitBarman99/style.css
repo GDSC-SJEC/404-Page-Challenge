@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 100%;
 }
 
 .section {
@@ -25,6 +26,7 @@ body {
 
 .carousel-item {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section .row {
@@ -76,7 +78,7 @@ body {
     text-transform: uppercase;
     font-size: 10rem;
     margin-bottom: 0px;
-    margin-top: -38px;
+    margin-top: -8px;
     -webkit-text-stroke: 0.6px white;
 }
 
