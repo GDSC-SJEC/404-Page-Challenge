@@ -1,0 +1,129 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+    background: url(https://images.template.net/wp-content/uploads/2015/07/Space-Backgrounds.png?width=450);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    height: calc(100% - 70px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+}
+
+.carousel-item {
+    display: flex;
+}
+
+.section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section .design-box {
+    bottom: 0;
+    left: 0;
+    width: 75px;
+}
+
+.section .design-box img {
+    width: 100%;
+}
+
+.section .detail_box {
+    margin: 80px;
+}
+
+.section .detail_box h2 {
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section .detail_box h2 span {
+    margin-right: 10px;
+    -webkit-text-stroke: 0.3px black;
+    color: #fba017;
+}
+
+.section .detail_box h2 hr {
+    margin: 0;
+    border: none;
+    width: 55px;
+    height: 1px;
+    background-color: #000000;
+}
+
+.section .detail_box h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10rem;
+    margin-bottom: 0px;
+    margin-top: -38px;
+    -webkit-text-stroke: 0.6px white;
+}
+
+.section .detail_box a {
+    display: inline-block;
+    padding: 8px 40px;
+    background-color: #0d0806;
+    border: 1px solid #0d0806;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 35px 0;
+}
+
+.section .detail_box a:hover {
+    color: #0d0806;
+    background: #cbcbcb;
+    transition: 0.4s linear;
+    border: none;
+}
+.detail_box p{
+    margin: 0;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d7d2d2;
+}
+#alien{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 38px;
+    color: #ff8a26;;  
+}
+.section .img-box {
+    width: 37em;
+}
+
+.section .img-box img {
+    width: 90%;
+}
+
+.col-md-6 {
+    margin: auto;
+}
+#back a{
+    font-size: 22px;
+    text-decoration: none;
+    padding: 22px 52px;
+    border-radius: 4px;
+    font-weight: 700;
+}
