@@ -30,4 +30,4 @@
 
 - [Amit Barman](https://github.com/AmitBarman99)
 
--[Gyanendra Tiwari](https://github.com/noobmaster432)
+- [Gyanendra Tiwari](https://github.com/noobmaster432)
